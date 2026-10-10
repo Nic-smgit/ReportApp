@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<settings>
+  <TemplateMeta>
+    <Name>Odyssey Legacy</Name>
+    <Vendor>Odyssey</Vendor>
+    <RequiresMapping>true</RequiresMapping>
+    <Version>1.0.0</Version>
+    <Description>Odyssey Windows legacy barcode/count/name import. Combines matching barcodes. Confirm this variant with your POS supplier before importing.</Description>
+    <MinimumAppVersion>2.0.0-beta.2</MinimumAppVersion>
+  </TemplateMeta>
+  <columns>
+    <Column1>Barcode</Column1>
+    <Column2>TotalUnits</Column2>
+    <Column3>Name</Column3>
+  </columns>
+  <columnNames>
+    <Column1>Barcode</Column1>
+    <Column2>Count</Column2>
+    <Column3>Name</Column3>
+  </columnNames>
+  <NumberOfColumns>
+    <Number>3</Number>
+  </NumberOfColumns>
+  <Options posIdentifier="barcode" groupStockCodes="true" skipBlankPosIdentifiers="true" AutoExport="false">
+    <IncludeHeader>false</IncludeHeader>
+    <IncludeQuotes>false</IncludeQuotes>
+    <IncludeDate>false</IncludeDate>
+    <IncludeName>false</IncludeName>
+    <IncludeSeq>false</IncludeSeq>
+    <OpenFile>false</OpenFile>
+    <OpenFileApp>false</OpenFileApp>
+    <decimalPlaces>3</decimalPlaces>
+    <lineEndCR>false</lineEndCR>
+    <lineEndCRLF>true</lineEndCRLF>
+    <lineEndLF>false</lineEndLF>
+    <promptClose>false</promptClose>
+  </Options>
+  <CSVExport>
+    <ButtonText>Export to Odyssey</ButtonText>
+    <Filename>stockmate.csv</Filename>
+  </CSVExport>
+  <columnText>
+    <Column1>Text</Column1>
+    <Column2>Text</Column2>
+    <Column3>Text</Column3>
+    <Column4>Text</Column4>
+    <Column5>Text</Column5>
+    <Column6>Text</Column6>
+    <Column7>Text</Column7>
+    <Column8>Text</Column8>
+    <Column9>Text</Column9>
+    <Column10>Text</Column10>
+    <Column11>Text</Column11>
+    <Column12>Text</Column12>
+    <Column13>Text</Column13>
+    <Column14>Text</Column14>
+    <Column15>Text</Column15>
+    <Column16>Text</Column16>
+    <Column17>Text</Column17>
+    <Column18>Text</Column18>
+    <Column19>Text</Column19>
+    <Column20>Text</Column20>
+  </columnText>
+</settings>

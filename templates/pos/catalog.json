@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "gaap-legacy",
+      "name": "GAAP Legacy",
+      "version": "1.0.0",
+      "minimumAppVersion": "2.0.0-beta.2",
+      "description": "GAAP Legacy stock-count CSV/text import. Uses mapped POS IDs and combines matching IDs. Based on the supplied desktop template.",
+      "file": "gaap-legacy-1.0.0.xml",
+      "sha256": "8a9a545b8535a48c923bc453971bb57b3bb88a369086d0ab732acf012a26dd47"
+    },
+    {
+      "id": "odyssey-legacy",
+      "name": "Odyssey Legacy",
+      "version": "1.0.0",
+      "minimumAppVersion": "2.0.0-beta.2",
+      "description": "Odyssey Windows legacy barcode/count/name import. Combines matching barcodes. Confirm this variant with your POS supplier before importing.",
+      "file": "odyssey-legacy-1.0.0.xml",
+      "sha256": "77f364511006fab49854690b3ca342330c3e77d4d958fb7015541e45641899d9"
+    }
+  ]
+}

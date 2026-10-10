@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Template>
+  <columns>
+    <Column1>POS_Id</Column1>
+    <Column2>Barcode</Column2>
+    <Column3>TotalUnits</Column3>
+    <Column4>Name</Column4>
+    <Column5>UnitName</Column5>
+    <Column6>None</Column6>
+    <Column7>None</Column7>
+    <Column8>None</Column8>
+    <Column9>None</Column9>
+    <Column10>None</Column10>
+    <Column11>None</Column11>
+    <Column12>None</Column12>
+    <Column13>None</Column13>
+    <Column14>None</Column14>
+    <Column15>None</Column15>
+    <Column16>None</Column16>
+    <Column17>None</Column17>
+    <Column18>None</Column18>
+    <Column19>None</Column19>
+    <Column20>None</Column20>
+  </columns>
+  <columnNames>
+    <Column1>Stock Code</Column1>
+    <Column2>Barcode</Column2>
+    <Column3>Total Count</Column3>
+    <Column4>Name</Column4>
+    <Column5>Unit Name</Column5>
+    <Column6 />
+    <Column7 />
+    <Column8 />
+    <Column9 />
+    <Column10 />
+    <Column11 />
+    <Column12 />
+    <Column13 />
+    <Column14 />
+    <Column15 />
+    <Column16 />
+    <Column17 />
+    <Column18 />
+    <Column19 />
+    <Column20 />
+  </columnNames>
+  <columnText>
+    <Column1>Text</Column1>
+    <Column2>Text</Column2>
+    <Column3>Text</Column3>
+    <Column4>Text</Column4>
+    <Column5>Text</Column5>
+    <Column6>Text</Column6>
+    <Column7>Text</Column7>
+    <Column8>Text</Column8>
+    <Column9>Text</Column9>
+    <Column10>Text</Column10>
+    <Column11>Text</Column11>
+    <Column12>Text</Column12>
+    <Column13>Text</Column13>
+    <Column14>Text</Column14>
+    <Column15>Text</Column15>
+    <Column16>Text</Column16>
+    <Column17>Text</Column17>
+    <Column18>Text</Column18>
+    <Column19>Text</Column19>
+    <Column20>Text</Column20>
+  </columnText>
+  <NumberOfColumns>
+    <Number>5</Number>
+  </NumberOfColumns>
+  <Options AutoExport="false" IncludeArea="false" IncludeDate="false" IncludeHeader="false" IncludeName="false" IncludeQuotes="false" IncludeSeq="false" OpenFile="false" OpenFileApp="false" decimalPlaces="3" groupStockCodes="true" lineEndCR="false" lineEndCRLF="true" lineEndLF="false" posIdentifier="pos_id" promptClose="false" skipBlankPosIdentifiers="true" />
+  <CSVExport>
+    <Filename>stockmate.txt</Filename>
+    <ButtonText>Export to Gaap</ButtonText>
+  </CSVExport>
+  <TemplateMeta>
+    <Name>GAAP Legacy</Name>
+    <Version>1.0.0</Version>
+    <Description>GAAP Legacy stock-count CSV/text import. Uses mapped POS IDs and combines matching IDs. Based on the supplied desktop template.</Description>
+    <Vendor>Gaap</Vendor>
+    <DefaultExtension>txt</DefaultExtension>
+    <RequiresMapping>true</RequiresMapping>
+    <MinimumAppVersion>2.0.0-beta.2</MinimumAppVersion>
+  </TemplateMeta>
+  <FileFormat type="csv">
+    <AllowedExtensions>csv,txt</AllowedExtensions>
+    <DefaultExtension>csv</DefaultExtension>
+    <Delimiter>,</Delimiter>
+  </FileFormat>
+</Template>
